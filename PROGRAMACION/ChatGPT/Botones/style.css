@@ -1,0 +1,152 @@
+/* Estilos para el botón 1 */
+#boton1 {
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  #boton1:hover {
+    background-color: #001f3f;
+  }
+  
+  /* Estilos para el botón 2 */
+  #boton2 {
+    background-color: #FF4136;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  #boton2:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Estilos para el botón 3 */
+  #boton3 {
+    background-color: #3D9970;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  #boton3:hover {
+    background-color: #2ECC40;
+  }
+  
+  /* Estilos para el botón 4 */
+  #boton4 {
+    background-color: #FFDC00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  #boton4:hover {
+    background-color: #FF851B;
+  }
+  
+  /* Estilos para el botón 5 */
+  #boton5 {
+    background-color: #85144b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px #85144b;
+    transition: box-shadow 0.5s ease-in-out;
+  }
+  
+  #boton5:hover {
+    box-shadow: 0px 0px 20px #85144b;
+  }
+  
+  /* Estilos para el botón 6 */
+  #boton6 {
+    background-color: #7FDBFF;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 16px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  #boton6:hover {
+    transform: rotate(360deg);
+  }
+  
+ /* Estilos para el botón 7 */
+#boton7 {
+    background-color: #F012BE;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  #boton7:hover {
+    background-color: #B10DC9;
+  }
+  
+  /* Estilos para el botón 8 */
+  #boton8 {
+    background-color: #39CCCC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: box-shadow 0.5s ease-in-out;
+  }
+  
+  #boton8:hover {
+    box-shadow: 0px 0px 20px #39CCCC;
+  }
+  
+  /* Estilos para el botón 9 */
+  #boton9 {
+    background-color: #DDDDDD;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: color 0.5s ease-in-out;
+  }
+  
+  #boton9:hover {
+    color: white;
+  }
+  
+  /* Estilos para el botón 10 */
+  #boton10 {
+    background-color: #001F3F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  #boton10:hover {
+    background-color: #FF4136;
+    transform: rotate(360deg);
+  }
+  

@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #1F618D;
+  }
+  
+  button {
+    background-color: #1F618D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #148F77;
+  }
+  
+  p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #2C3E50;
+  }
+  
+  input {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #2C3E50;
+    margin-top: 20px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafé - By:Lecnar</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="preload" href="CSS/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+
+        </div>
+    </header>
+    <main class="contenedor">
+        <h3 class="centrar-texto">Contacto</h3>
+
+        <div class="contacto-bg"></div>
+
+        <form class="formulario">
+            <div class="campo">
+                <label for="nombre" class="campo__label">Nombre</label>
+                <input type="text" 
+                placeholder="Tú Nombre" 
+                id="nombre"
+                class="campo__field">
+            </div>
+            
+            <div class="campo">
+                <label for="email" class="campo__label">Email</label>
+                <input type="email" 
+                placeholder="Tú E-mail" 
+                id="email"
+                class="campo__field">
+            </div>
+            
+            <div class="campo">
+                <label for="mensaje"class="campo__label">Mensaje</label>
+                <textarea name="" 
+                id="mensaje"
+                class="campo__field campo__field--textarea"
+                ></textarea>
+            </div>
+            
+            
+            <div class="campo">
+                <input type="submit" 
+                value="Enviar" 
+                class="boton boton--primario">
+            </div>
+        </form>
+    </main>
+    <!--
+    <footer class="footer contenedor no-margin">
+        <div class="footer__logo">
+            <a href="index.html" class="logo">
+                <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+            </a>
+        </div>
+        <nav class="no-margin navegacion--footer">
+            <a href="#" class="navegacion--footer__enlaces">Nosotros</a>
+            <a href="#" class="navegacion--footer__enlaces">Cursos</a>
+            <a href="#" class="navegacion--footer__enlaces">Contacto</a>
+        </nav>
+
+    </footer>
+-->
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+
+        </div>
+    </footer>
+    <script src="JS/modernizr.js"></script>
+</body>
+
+</html>
