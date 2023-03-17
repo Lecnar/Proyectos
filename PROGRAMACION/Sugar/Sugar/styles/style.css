@@ -1,0 +1,197 @@
+/*body*/
+
+body{
+
+    height: 100vh;
+}
+#cabecera{
+    text-align: center;
+    font: bold 16px MiNuevaFuente, roboto, sans-serif;
+    background: #A5D793;
+    color: #B44E80 ;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: 'MiNuevaFuente';
+    src: url('font.ttf');
+    }
+#agrupar {
+    text-align: right;
+    font: bold 12px roboto, sans-serif;
+    border: 0px solid #FF9933;
+    background: #6666FF;
+
+    height: 100%;
+}
+
+#menu {
+    float: left;
+    width: 180px;
+    margin: 0px 0px;
+    padding: 0px;
+    text-align: left;
+    font: bold 12px roboto, sans-serif;
+    border: 1px solid #FF9933;
+    background: #6666FF;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+.boton {
+    text-align: center;
+    border: 1px solid #FF9933; 
+    padding: 10px; 
+    background-color: #CC99FF; 
+    color: #000000; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif; 
+    border-radius: 50px; 
+    -moz-box-shadow: rgb(150,150,150) 5px 5px;
+    -webkit-box-shadow: rgb(150,150,150) 5px 5px;
+    box-shadow: rgb(150,150,150) 5px 5px;
+
+    margin: 15px;
+
+    }
+
+#seccion {
+    /*float: right;*/
+    width: 1420px;
+    margin: 0px;
+    font: bold 12px roboto, sans-serif;
+    border: 1px solid #FF9933;
+    background: #6666FF;
+}
+#columna {
+    float: right;
+    width: 1150px;
+    margin: 10px 8px;
+    padding: 20px;
+    text-align: left;
+    font: bold 12px roboto, sans-serif;
+    border: 1px solid #FF9933;
+    background: #6666FF;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(top, #68c5f0, #763fcf);
+    background: -moz-linear-gradient(top, #68c5f0, #763fcf);
+    background: linear-gradient(top, #68c5f0 50%, #763fcf 90%)
+}
+#pie, .foot{
+    clear: both;
+    text-align: center;
+    padding: 1px;
+    border-top: 2px solid #f51f1f;
+    font: bold 12px verdana, sans-serif;
+    border: 1px solid #b023db;
+    background: #3a6fe2;
+    
+    
+}
+
+a{
+  text-decoration: none;
+  display: block;  
+}
+footer{
+    margin-top: 900px;
+    
+}
+footer p{
+    padding: 5px;
+}
+
+
+
+/** VIDEOBLOG **/
+.body--video{
+    background: #6666FF;
+    color: white;
+    height: 100vh;
+}
+.video--main{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video--main h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.video--main video{
+    text-align: center;
+    margin-top: 20px;
+}
+video{
+    border-radius: 20px;
+    /*box-shadow: 1px 1px 34px 20px rgba(103,103,176,1);*/
+}
+
+
+/** Galería **/
+.body--galeria{
+    background: #6666FF;
+    color: white;
+    height: 100vh;
+}
+.main--galeria{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main--galeria h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.imagenes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 80%;
+    margin: 30px 0 80px 0;
+}
+.imagenhijo img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+/** JUEGO **/
+.body--juego{
+    background: #6666FF;
+    color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header h2 span{
+    font-size: 15px;
+}
+.juego{
+    margin: 30px auto;
+}
+.header--juego{
+    order: 0;
+}.nav--juego{
+    order: 1;
+}
+#boton--juego{
+    order: 2;
+    margin: 30px auto 5px auto;
+}
+#score--juego{
+    order: 3;
+}
+#juego--juego{
+    order: 4;
+}
